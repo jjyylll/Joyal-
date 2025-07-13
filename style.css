@@ -2,7 +2,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background: #0f2027; /* dark blue gradient */
-  background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+  background: radial-gradient(to right, #2c5364, #203a43, #0f2027);
   color: #ffffff;
   line-height: 1.6;
 }
