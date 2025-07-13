@@ -41,6 +41,7 @@ footer.contact {
   padding: 40px 10px;
   background-color:#000000 rgba(0, 0, 0, 0.6);
 }
+/* Partical Background Fix */
 #tsparticles{
   postion: fixed;
   width: 100%;
@@ -54,4 +55,8 @@ body,header,section,footer{
   postion: relative
   z-index: 1;
 }
-  
+body,main,header,section,footer,h1,h2,h3,p {
+    postion: relative;
+    z-index: 1; /* makes all visible content sit above the background */
+  }
+
