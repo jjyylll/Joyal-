@@ -122,7 +122,7 @@ body {
 }
 
 .portfolio-item {
-    background: rgba(255, 255, 255, 0.05);
+    background: #00ff88; 
     padding: 20px;
     border-radius: 10px;
     transition: transform 0.3s;
