@@ -8,7 +8,7 @@
 body {
     font-family: 'Arial', sans-serif;
     color: #ffffff; /* white  font */
-    background: linear-gradient(135deg, #1a1a1a, #2c2c2c); /* Techy dark gradient */
+    background: jyy/image/network-background.jpg
     line-height: 1.6;
     min-height: 100vh;
 }
