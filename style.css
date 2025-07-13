@@ -1,23 +1,20 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background: #0f2027; /* dark blue gradient */
-  background: radial-gradient(to right, #2c5364, #203a43, #0f2027);
-  color: #ffffff;
+  background: #000000; /*black*/
+  background: linear-gradient(145deg, #1c1f2b, #32374d);
+  color: #ffffff;/*white*/
   line-height: 1.6;
+  background-attachment:fixed;
 }
-
-header.hero {
-  padding: 40px;
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.3);
+section,header,footer{
+  background-colour:rgba(255,255,255,0.05);
+    backdrop-filter:blur(8px);
+  border-radius:15px;
+  padding:20px
+    margin:20px
+    box-shadow: 0 4px 10px rgba(0,0,0,0,3)
 }
-
-header.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
-}
-
 section {
   padding: 30px 15%;
   margin-top: 20px;
@@ -26,7 +23,7 @@ section {
 }
 
 section h2 {
-  color: #00d9ff;
+  color: #000000;
 }
 
 section ul {
@@ -35,12 +32,12 @@ section ul {
 }
 
 section ul li a {
-  color: #ffeb3b;
+  color: #000000;
   text-decoration: none;
 }
 
 footer.contact {
   text-align: center;
   padding: 40px 10px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color:#000000 rgba(0, 0, 0, 0.6);
 }
