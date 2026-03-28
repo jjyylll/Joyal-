@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Name | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Your Name</h1>
+        <p>Data Science Student</p>
+    </header>
+
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a BSc DBDS student passionate about data analysis,
+            machine learning, and solving real-world problems using data.
+        </p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <h3>Data Analysis Project</h3>
+            <p>Analyzed sales data using Python and Pandas.</p>
+        </div>
+
+        <div class="project">
+            <h3>Machine Learning Model</h3>
+            <p>Built a prediction model using scikit-learn.</p>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Skills</h2>
+        <p>Python, SQL, Pandas, Machine Learning</p>
+    </section>
+
+    <section>
+        <h2>Contact</h2>
+        <p>Email: your@email.com</p>
+    </section>
+
+</body>
+</html>
